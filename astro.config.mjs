@@ -8,7 +8,7 @@ export default defineConfig({
   site: 'https://moonrisesunset.github.io',
   integrations: [	
     starlight({
-      title: "WIP",
+      title: "greenhouse",
 			customCss:[
 				'./src/styles/starlight.css',
 				'@fontsource-variable/inter',
