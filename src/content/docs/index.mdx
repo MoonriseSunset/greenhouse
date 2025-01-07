@@ -4,13 +4,16 @@ description: Start Here! Welcome to my site.
 template: 'splash'
 next: false
 prev: false
-banner: 
-  content: |
-        Heyo! This site is very WIP!
 hero:
   title: "Heyo"
   tagline: "welcome to my greenhouse, take a look around"
 ---
 import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
+<CardGrid stagger>
+  <LinkCard title="the greenhouse" href="./greenhouse"/>
+  <LinkCard title="the rock garden" href="./rockcollection"/>
+  <LinkCard title="changelog" href="./changelog/" description=""/>
+  <LinkCard title="to the portfolio" href="../" description="(exiting this branch)"/>  
+</CardGrid>
 ---
