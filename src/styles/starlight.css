@@ -83,7 +83,7 @@
 
 	--sl-color-hairline:var(--EF-bg4);
 
-	--sl-font: 'Atkinson Hyperlegible', sans-serif;
+	--sl-font: 'Baloo Bhaina 2 Variable', sans-serif;
 	/*font-family: */
 
 	h2{
@@ -160,35 +160,10 @@
 	}
 }
 
-h2, h3, h4, h5, h6{
-	font-family: 'Noto Sans Variable', sans-serif;
-}
-
 p,li{
 	font-size:1.125rem
 }
 
 h1,.sl-link-card,.tagline{
-	/*font-family: 'Atkinson Hyperlegible', sans-serif;*/
-	font-family: 'Inter', sans-serif;
-}
-
-#inter{
-	font-family: 'Inter', sans-serif;
-	font-size: 1.25rem;
-}
-
-#atkinson{
-	font-family: 'Atkinson Hyperlegible', sans-serif;
-	font-size: 1.25rem;
-}
-
-#sometype{
-	font-family: 'Sometype Mono Variable', monospace;
-	font-size: 1.25rem;
-}
-
-#noto{
-	font-family: 'Noto Sans Variable', sans-serif;
-	font-size: 1.25rem;
+	font-family: 'Cabin Variable', sans-serif;
 }

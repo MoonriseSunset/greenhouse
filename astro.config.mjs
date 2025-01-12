@@ -6,16 +6,15 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://moonrisesunset.github.io',
-  base: '/greenhouse',
+  base: '/home',
   integrations: [	
     starlight({
-      title: "greenhouse",
+      title: "virtual house",
 			customCss:[
 				'./src/styles/starlight.css',
-				'@fontsource-variable/inter',
-				'@fontsource-variable/sometype-mono',
-				'@fontsource-variable/noto-sans',
-				'@fontsource/atkinson-hyperlegible',
+
+				'@fontsource-variable/cabin',
+				'@fontsource-variable/baloo-bhaina-2',
 			],
 			social: {
 				github: 'https://github.com/MoonriseSunset',

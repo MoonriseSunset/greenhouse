@@ -11,10 +11,8 @@
   },
   "dependencies": {
     "@astrojs/starlight": "^0.30.3",
-    "@fontsource-variable/inter": "^5.1.0",
-    "@fontsource-variable/noto-sans": "^5.1.0",
-    "@fontsource-variable/sometype-mono": "^5.1.0",
-    "@fontsource/atkinson-hyperlegible": "^5.1.1",
+    "@fontsource-variable/baloo-bhaina-2": "^5.1.1",
+    "@fontsource-variable/cabin": "^5.1.1",
     "astro": "^5.1.1"
   },
   "devDependencies": {
