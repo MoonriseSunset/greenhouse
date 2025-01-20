@@ -14,8 +14,5 @@
     "@fontsource-variable/baloo-bhaina-2": "^5.1.1",
     "@fontsource-variable/cabin": "^5.1.1",
     "astro": "^5.1.7"
-  },
-  "devDependencies": {
-    "less": "^4.2.1"
   }
 }
