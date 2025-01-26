@@ -2,25 +2,6 @@
 
 :root {
 
-	/* Nord */
-
-    --nord0: #2e3440;
-    --nord1: #3b4252;
-    --nord2: #434c5e;
-    --nord3: #4c566a;
-    --nord4: #d8dee9;
-    --nord5: #e5e9f0;
-    --nord6: #eceff4;
-    --nord7: #8fbcbb;
-    --nord8: #88c0d0;
-    --nord9: #81a1c1;
-    --nord10: #5e81ac;
-    --nord11: #bf616a;
-    --nord12: #d08770;
-    --nord13: #ebcb8b;
-    --nord14: #a3be8c;
-    --nord15: #b48ead;
-
 	/* Everforest */
 
 	--EF-bg_dim: #232A2E;
@@ -63,6 +44,10 @@
     --basalt: #111111;
 
     --burntorange: #972e0e;
+
+	--EF-orange-dark: hsl(19, 69%, 60%);
+	--EF-green-dark: hsl(83, 34%, 45%);
+	--EF-purple-dark: hsl(331, 43%, 60%);
 
     --ash: #222222;
     --twilight: #110033;
@@ -116,20 +101,24 @@
 }
 /* Light mode colors. */
 :root[data-theme='light'] {
+
 	--sl-color-accent-low: var(--abyss);
-	--sl-color-accent: var(--nord10);
-	--sl-color-accent-high: var(--nord10);
-	--sl-color-white: var(--nord1);
-	--sl-color-gray-1: var(--nord13);
-	--sl-color-gray-2: var(--nord3);
-	--sl-color-gray-3: var(--abyss);
-	--sl-color-gray-4: var(--nord14);
-	--sl-color-gray-5: var(--burntorange);
-	--sl-color-gray-6: var(--nord6);
-	--sl-color-gray-7: var(--nord3);
+	--sl-color-accent: var(--EF-orange-dark);
+	--sl-color-accent-high: var(--EF-purple);
+	--sl-color-white: var(--EF-bg1);
+	--sl-color-gray-1: var(--EF-yellow);
+	--sl-color-gray-2: var(--EF-orange-dark);
+	--sl-color-gray-3: var(--EF-bg_blue);
+	--sl-color-gray-4: var(--EF-red);
+	--sl-color-gray-5: var(--EF-aqua);
+	--sl-color-gray-6: var(--EF-bg4);
 	--sl-color-black: white;
 
-	--sl-color-bg-nav: var(--nord0);
+	--sl-color-hairline:var(--EF-bg2);
+	--sl-color-bg-nav: var(--EF-bg_green);
+	--sl-color-text-accent: var(--EF-red);
+	--sl-color-text: var(--EF-bg1);
+	
 
 	h2{
 		color: var(--nord8);
@@ -140,20 +129,20 @@
 	}
 
 	em{
-		color: var(--burntorange);
+		color: var(--EF-green-dark);
 
 		strong{
-			color: var(--nord15);
+			color: var(--EF-purple-dark);
 		}
 	}
 
 	strong{
-		color: var(--nord3);
+		color: var(--EF-orange-dark);
 	}
 
 	figcaption{
 		text-decoration: overline;
-		color: var(--nord11);
+		color: var(--EF-bg_visual);
 	}
 	#caption{
 		margin-top: 0.25rem;
